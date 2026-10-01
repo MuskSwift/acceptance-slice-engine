@@ -1,0 +1,2 @@
+# stdlib only (Python 3.10+).
+# HTTP uses urllib.request. No third-party packages required.

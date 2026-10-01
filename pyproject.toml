@@ -1,0 +1,17 @@
+[project]
+name = "acceptance-slice-engine"
+version = "0.1.0"
+description = "Acceptance Slice Engine v0 — generate a six-heading Chinese acceptance slice for Eng dispatch."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[project.scripts]
+acceptance-slice-engine = "acceptance_slice_engine.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["acceptance_slice_engine*"]
